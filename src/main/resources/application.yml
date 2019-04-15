@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: test
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.1.90:3306/flowable?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8&useSSL=false&nullCatalogMeansCurrent=true
+    username: root
+    password: root
+server:
+  port: 8085
