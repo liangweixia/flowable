@@ -23,5 +23,7 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	// https://mvnrepository.com/artifact/org.flowable/flowable-spring-boot-starter-basic
 	compile group: 'org.flowable', name: 'flowable-spring-boot-starter-basic', version: '6.3.0'
+// https://mvnrepository.com/artifact/org.flowable/flowable-spring-boot-starter-rest
+	compile group: 'org.flowable', name: 'flowable-spring-boot-starter-rest', version: '6.4.1'
 
 }
